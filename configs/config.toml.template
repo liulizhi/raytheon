@@ -1,0 +1,38 @@
+[main]
+log_level = "debug"
+prefix = "/Users/liulizhi/Documents/go_workspace/src/raytheon"
+debug = true
+port = 8001
+token_head_name = 'Bearer'
+admin_name = 'admin'
+admin_pass = 'admin'
+
+
+[db]
+host = '172.168.1.150'
+port = 3306
+user = 'root'
+password = 'aixocm'
+db = 'lgmg'
+charset = 'utf8'
+max_open_conns = 2000
+max_idle_conns = 1000
+
+[redis]
+host = '172.168.1.150'
+port = 6379
+password = ''
+db = 7
+
+
+[ldap]
+switch = false
+addr = "39.105.81.109"
+port = 389
+base_dn = "dc=yongqianbao,dc=com"
+bind_dn = "dc=yongqianbao,dc=com"
+bind_pass = "6MRuns"
+auth_filter = ""
+attr_filter = ""
+tls = false
+start_tls = false
